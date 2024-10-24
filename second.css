@@ -1,0 +1,131 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 6, 6);
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    background-color: #649e98;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #649e98;
+}
+
+/* Products Section */
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.product button {
+    background-color: #649e98;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #649e98;
+}
+
+/* Promotion Section */
+.promotion {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.promotion h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.promotion p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.promotion button {
+    background-color: #649e98;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.promotion button:hover {
+    background-color: #649e98;
+}
